@@ -1,0 +1,35 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packet captures (can be large or contain sensitive traffic)
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+
+# Test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
